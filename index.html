@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GraphQL Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="login-page">
+    <div class="login-wrap">
+        <div class="login-header">
+            <div class="login-logo">⬡</div>
+            <h1>Graph<span>QL</span> Profile</h1>
+            <p>// 01yessenov.yu.edu.kz</p>
+        </div>
+        <div class="login-card">
+            <div class="input-group">
+                <label>username или email</label>
+                <input type="text" id="inp-user" placeholder="john.doe / john@email.com" autocomplete="username">
+            </div>
+            <div class="input-group">
+                <label>password</label>
+                <input type="password" id="inp-pass" placeholder="••••••••••••" autocomplete="current-password">
+            </div>
+            <button class="btn-login" id="btn-login" onclick="handleLogin()">Войти</button>
+            <div class="error-box" id="error-box"></div>
+        </div>
+    </div>
+</div>
+
+<div id="profile-page">
+    <div class="navbar">
+        <div class="navbar-brand">Graph<span>QL</span> Profile</div>
+        <button class="btn-logout" onclick="logout()">logout →</button>
+    </div>
+    <div id="profile-content">
+        <div class="loading-state">
+            <div class="spinner"></div>
+            Загружаем данные…
+        </div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
