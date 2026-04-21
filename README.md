@@ -24,4 +24,4 @@ A lightweight single-page application (SPA) built for the **Yessenov University*
 ## ⚙️ How to Run
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/твой-логин/название-репозитория.git](https://github.com/твой-логин/название-репозитория.git)
+   git clone [https://github.com/Alioi1/01-edu-profile-page.git](https://github.com/Alioi1/01-edu-profile-page.git)
